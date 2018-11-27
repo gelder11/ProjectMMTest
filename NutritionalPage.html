@@ -25,7 +25,7 @@ Nutritional Page
 			<aside id="sidebar" class="column-left">
 
 			<header>
-				<h1><a href="index.php"><img src="assets/Logo.jpg"   style="width:200px;height:125px;"></a></h1>
+				<h1><a href="index.html"><img src="assets/Logo.jpg"   style="width:200px;height:125px;"></a></h1>
 
 				
 				
@@ -37,7 +37,7 @@ Nutritional Page
   
    <li><a href="index.php">HOME</a></li>
   <li><a href="about_us.html">About Us</a></li>
-   <li class="dropdown">
+    <li class="dropdown">
   <button class="dropdown-btn">Menu &#9660;  
     <i class="fa fa-caret-down"></i>
   </button>
@@ -55,33 +55,16 @@ Nutritional Page
   <li><a href="NutritionalPage.html">Nutritional Page</a></li>
   <li><a href="gallery_and_social_media.html">Gallery/Social Media</a></li>
   <li><a href="Events.html">Events/Specials</a></li> 
-  <li><a href="reservations.html">Reservations</a></li>
+  
   <li><a href="Careers.html">Career Opportunities</a></li>
   <li><a href="contact_us.html">Contact Us</a></li>
-  <li><a href="shopping_cart.html">Place Your Order Here</a></li>
+  <li><a href="shopping_cart.php">Place Your Order Here</a></li>
                         	</ul>
 			</nav>
 
 			
 			
 			</aside>
-			<script>
-/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
-var dropdown = document.getElementsByClassName("dropdown-btn");
-var i;
-
-for (i = 0; i < dropdown.length; i++) {
-  dropdown[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var dropdownContent = this.nextElementSibling;
-    if (dropdownContent.style.display === "block") {
-      dropdownContent.style.display = "none";
-    } else {
-      dropdownContent.style.display = "block";
-    }
-  });
-}
-</script>
 			<main id="content" class="column-right">
                 		
 <h1><center>Nutrition Facts</center></h1>
@@ -199,12 +182,6 @@ for (i = 0; i < dropdown.length; i++) {
 				   <td id="colFiber">0.6</td>
 				   <td id="colSugar">0</td>
 				   <td id="colProtein">10</td>
-				</tr>
-				
-				<tr>
-				<th>
-				taco
-				</th>
 				</tr>
 				<tr>
 				   <td id="colFoodName">KIDS TACO<br><p id="glsfnf">gl nf</p></td>
@@ -487,7 +464,7 @@ for (i = 0; i < dropdown.length; i++) {
 
 			
 			<footer class="clear">
-				<br><br><br><br><a href="#toppage"><img src="assets/Red_Pepper.jpg" width="124" height="60" class="centerfooter"><a/>
+				<br><br><br><br><a href="#toppage"><img src="assets/Red Pepper.jpg" width="124" height="60" class="centerfooter"><a/>
 			</footer>
 
 		</main>
