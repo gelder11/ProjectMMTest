@@ -65,6 +65,23 @@ Nutritional Page
 			
 			
 			</aside>
+                    <script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+  });
+}
+</script>
 			<main id="content" class="column-right">
                 		
 <h1><center>Nutrition Facts</center></h1>
@@ -92,7 +109,11 @@ Nutritional Page
 			</thead>
 			<table class="b"> 
 			<tbody class="scrollContent">
+                            <tr>
+                                <th colspan="11">Starters, Salads, and Sides</th> 
+                            </tr>
 				<tr>
+                                    
 				   <td id="colFoodName">BUFFALO CAULIFLOWER BITES</td>
 				   <td id="colCalories">104</td>
 				   <td id="colFat">5.2</td>
@@ -106,7 +127,7 @@ Nutritional Page
 				   <td id="colProtein">5.2</td>
 				</tr>
 				<tr>
-				   <td id="colFoodName">KALE SALAD<p id="glsfnf"> KALE SALAD gl sf nf</p></td>
+				   <td id="colFoodName">KALE SALAD<p id="glsfnf">  gl sf nf</p></td>
 				   <td id="colCalories">251</td>
 				   <td id="colFat">22</td>
 				   <td id="colSatFat">2.8</td>

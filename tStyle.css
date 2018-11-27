@@ -5,6 +5,10 @@ table, th, td {
 
 	text-align: center;
 }
+th{
+     
+    height: 60px;
+}
 tbody.scrollContent {
 	display: block;
 	overflow: auto;
@@ -49,7 +53,7 @@ table.a{
 }
 
 	
-}
+
 table.b {
 	min-width: 100px;
 	max-width: 700px; 
