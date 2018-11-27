@@ -23,7 +23,7 @@
         <body>
 
             <main id="body" class="width">
-                <?php $page = "desserts"; include_once('displayShoppingCart.php'); ?>
+                
                 <aside id="sidebar" class="column-left">
 
                     <header>
@@ -57,10 +57,10 @@
                             <li><a href="NutritionalPage.html">Nutritional Page</a></li>
                             <li><a href="gallery_and_social_media.html">Gallery/Social Media</a></li>
                             <li><a href="Events.html">Events/Specials</a></li> 
-                            <li><a href="reservations.html">Reservations</a></li>
+                            
                             <li><a href="Careers.html">Career Opportunities</a></li>
                             <li><a href="contact_us.html">Contact Us</a></li>
-                            <li><a href="shopping_cart.html">Place Your Order Here</a></li>
+                            <li><a href="shopping_cart.php">Place Your Order Here</a></li>
                         </ul>
                     </nav>
 
@@ -87,8 +87,7 @@
                 <main id="content" class="column-right">
 
                     <h1 align="center">Desserts</h1>
-                    <br>
-                    <br>
+                    <?php $page = "kids_menu";  include_once('displayShoppingCart.php'); ?>
 
                     <table class="bordermenu"> 
                         <div id="product-grid">

@@ -23,7 +23,7 @@
         <body>
 
             <main id="body" class="width">
-                <?php $page = "starters_salads_and_sides"; include_once('displayShoppingCart.php'); ?>
+                
                 <aside id="sidebar" class="column-left">
                     <header>
                         <h1><a href="index.php"><img src="assets/Logo.jpg"   style="width:200px;height:125px;"></a></h1>
@@ -86,10 +86,9 @@
                         <br>
                         <br>
                         <h5>GL - (Gluten - Less)    SF - (Soy Free)   NF - (Nut Free)</h5>
+                        <?php $page = "starters_salads_and_sides"; include_once('displayShoppingCart.php'); ?>
                     </div> 
-                    <br>
-                    <br>
-                    <br>
+                    
 
 
                     <table class="bordermenu"> 

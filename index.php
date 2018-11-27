@@ -58,7 +58,7 @@ Index Page
                         <li><a href="NutritionalPage.html">Nutritional Page</a></li>
                         <li><a href="gallery_and_social_media.html">Gallery/Social Media</a></li>
                         <li><a href="Events.html">Events/Specials</a></li>
-                        <li><a href="reservations.html">Reservations</a></li>
+                        
                         <li><a href="Careers.html">Career Opportunities</a></li>
                         <li><a href="contact_us.html">Contact Us</a></li>
                         <li><a href="shopping_cart.php">Place Your Order Here</a></li>
@@ -126,9 +126,11 @@ for (i = 0; i < dropdown.length; i++) {
                     <br>
                     <li>getting a five star certification in sustainability through the Green Dining Alliance (GDA)</li>
                 </ul>
-                <br><video width="640" height="480" controls>
+                <br>
+                <center><video width="640" height="480" controls>
                     <source src="movies/lulu's local eatery.mp4" type="video/mp4">
-                </video> </br>
+                </video> </center>
+                </br>
                 <ul style=" list-style-position: inside;">
                     <br><br><br>
                     <h3>We are looking forward to seeing you. Come join us here:</h3>

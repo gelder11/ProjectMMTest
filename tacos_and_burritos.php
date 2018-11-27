@@ -23,7 +23,7 @@
         <body>
 
             <main id="body" class="width">
-                <?php $page = "tacos_and_burritos"; include_once('displayShoppingCart.php'); ?>
+                
                 <aside id="sidebar" class="column-left">
 
                     <header>
@@ -60,7 +60,7 @@
                             <li><a href="reservations.html">Reservations</a></li>
                             <li><a href="Careers.html">Career Opportunities</a></li>
                             <li><a href="contact_us.html">Contact Us</a></li>
-                            <li><a href="shopping_cart.html">Place Your Order Here</a></li>
+                            <li><a href="shopping_cart.php">Place Your Order Here</a></li>
                         </ul>
                     </nav>
 
@@ -97,7 +97,7 @@
                             coleslaw or tater tots for $2 more / add
                             a side kale salad for $3 more.</h4>
                     </div>
-
+                    <?php $page = "tacos_and_burritos"; include_once('displayShoppingCart.php'); ?>
                     <table class="bordermenu"> 
                         <div id="product-grid">
                             <?php

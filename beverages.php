@@ -23,7 +23,7 @@
         <body>
 
             <main id="body" class="width">
-                <?php $page = "beverages"; include_once('displayShoppingCart.php'); ?>
+                
                 <aside id="sidebar" class="column-left">
 
                     <header>
@@ -80,7 +80,8 @@
                     }
                 </script>
                 <main id="content" class="column-right">
-
+                    <h1><center>Beverages</center></h1>
+<?php $page = "beverages"; include_once('displayShoppingCart.php'); ?>
                     <?php
                     // For the given id generate an HTML form
                     // that sends the 'add' acttion along with the id 
