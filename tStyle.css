@@ -6,8 +6,8 @@ table, th, td {
 	text-align: center;
 }
 th{
-     
-    height: 60px;
+    font-size: 1.2em;
+    text-decoration: underline; 
 }
 tbody.scrollContent {
 	display: block;
