@@ -61,7 +61,7 @@
                             <li><a href="NutritionalPage.html">Nutritional Page</a></li>
                             <li><a href="gallery_and_social_media.html">Gallery/Social Media</a></li>
                             <li><a href="Events.html">Events/Specials</a></li>
-                            <li><a href="reservations.html">Reservations</a></li>
+                            
                             <li><a href="Careers.html">Career Opportunities</a></li>
                             <li><a href="contact_us.html">Contact Us</a></li>
                             <li><a href="shopping_cart.html">Place Your Order Here</a></li>
