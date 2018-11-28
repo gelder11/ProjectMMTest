@@ -90,8 +90,8 @@
                     
 
 
-                    <table class="bordermenu"> 
-                        <div id="product-grid">
+                    
+                        
                             <?php
                             $query = "SELECT * FROM tblproduct ";
                             $query .= " WHERE category = 'starters_salads_and_sides' ";
@@ -129,7 +129,7 @@
                             }
                             ?>
                         </div>
-                    </table> 
+
                     <br>
 
                     <div class="btn-group-wrap">
