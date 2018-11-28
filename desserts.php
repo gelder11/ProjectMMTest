@@ -89,7 +89,7 @@
                     <?php $page = "kids_menu";  include_once('displayShoppingCart.php'); ?>
 
                     <table class="bordermenu"> 
-                        
+                        <div id="product-grid">
                             <?php
                             $query = "SELECT * FROM tblproduct ";
                             $query .= " WHERE category = 'desserts' ";

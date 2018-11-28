@@ -35,7 +35,6 @@
                         <ul>
                             <li><a href="index.php">HOME</a></li>
                             <li><a href="about_us.html">About Us</a></li>
-                            <li><a href="about_us.html">About Us</a></li>
                             <li class="dropdown">
                                 <button class="dropdown-btn">Menu &#9660;  
                                     <i class="fa fa-caret-down"></i>
