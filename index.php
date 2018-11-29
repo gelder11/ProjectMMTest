@@ -94,9 +94,9 @@ for (i = 0; i < dropdown.length; i++) {
 
                 <table id="t01">
                     <tr>
-                        <td><img src="assets/Noodles.jpg" width="200px" height="125px"></td>
-                        <td><img src="assets/Food2.jpg" width="200px" height="125px"></td>
-                        <td><img src="assets/Food3.jpg" width="200px" height="125px"></td>
+                        <td><img src="assets/noodles.jpg" ></td>
+                        <td><img src="assets/Food2.jpg" ></td>
+                        <td><img src="assets/Food3.jpg" ></td>
                     </tr>
                 </table>
                 <h3>Introduction:</h3>
@@ -127,7 +127,7 @@ for (i = 0; i < dropdown.length; i++) {
                     <li>getting a five star certification in sustainability through the Green Dining Alliance (GDA)</li>
                 </ul>
                 <br>
-                <center><video width="640" height="480" controls>
+                <center><video  controls>
                     <source src="movies/lulu's local eatery.mp4" type="video/mp4">
                 </video> </center>
                 </br>
@@ -153,9 +153,9 @@ for (i = 0; i < dropdown.length; i++) {
 
                 <table id="t01">
                     <tr>
-                        <td><img src="assets/Food4.jpg" width="200px" height="125px"></td>
-                        <td><img src="assets/Food5.jpg" width="200px" height="125px"></td>
-                        <td><img src="assets/Food6.jpg" width="200px" height="125px"></td>
+                        <td><img src="assets/Food4.jpg" ></td>
+                        <td><img src="assets/Food5.jpg" ></td>
+                        <td><img src="assets/Food6.jpg" ></td>
                     </tr>
                 </table>
 
@@ -163,7 +163,7 @@ for (i = 0; i < dropdown.length; i++) {
 
 
                 <footer class="clear">
-                    <br><br><br><br><a href="#toppage"><img src="assets/Red_Pepper.jpg" width="124" height="60" class="centerfooter"><a />
+                    <br><br><br><br><a href="#toppage"><img src="assets/Red_Pepper.png" width="124" height="60" class="centerfooter"><a />
                 </footer>
 
             </main>
