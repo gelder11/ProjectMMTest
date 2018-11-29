@@ -34,10 +34,15 @@ video{
 #shopping-cart table {
 	width: 100%;
 	background-color: #F0F0F0;
+        border: 1px groove; 
 }
 
 #shopping-cart table td {
 	background-color: #FFFFFF;
+}
+#shopping-cart table tr {
+	background-color: #FFFFFF;
+        
 }
 
 .txt-heading {
@@ -413,6 +418,7 @@ aside#sidebar {
     background: #222;
     width: 200px;
     position: fixed;
+    border-radius: 50px; 
 }
 
 nav#mainnav ul {
@@ -441,6 +447,7 @@ nav#mainnav li a:hover {
     background: #292929;
     color: #eee;
     text-decoration: none;
+    border-radius: 25px;
 }
 
 nav#mainnav li a {
@@ -491,6 +498,7 @@ footer p a:hover {
     color: #333;
     border-bottom-color: #333;
 }
+
 
 .centerfooter {
     display: block;
