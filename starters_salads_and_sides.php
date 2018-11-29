@@ -138,7 +138,7 @@
                         </div>
                     </div>
                     <footer class="clear">
-                        <br><br><br><br><a href="#toppage"><img src="assets/Red_Pepper.jpg" width="124" height="60" class="centerfooter"><a/>
+                        <br><br><br><br><a href="#toppage"><img src="assets/Red_Pepper.png" width="124" height="60" class="centerfooter"><a/>
                     </footer>
 
 

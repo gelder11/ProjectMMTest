@@ -1,13 +1,28 @@
 @import url(http://fonts.googleapis.com/css?family=Oxygen:400,700);
 
 /** global **/
+html{
+    background-color: rgba(74, 74, 74, 1); 
+ height: 100%;    
+ 
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 body {
     margin: 0px auto;
-    background-image: url("assets/Vegetable_Background.jpg");
+    
     padding: 0px;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 1.0em;
-    color: #555;
+    color: black;
+}
+video{
+    width: 640px;
+    height: 480px; 
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 15px;
+    background-color: black; 
 }
 
 #shopping-cart {
@@ -133,12 +148,22 @@ table#t01 {
     width: 100%;
     text-align: center;
 }
+#t01 img{
+    width: 200px; 
+    height: 125px;
+    border-radius: 25px; 
+    box-shadow: 5px 5px 5px;
+}
 
 table#t02 {
     margin-left: auto;
     margin-right: auto;
 
 
+}
+table#t03 img{
+    box-shadow: 5px 5px 5px ;
+    border-radius: 15px;
 }
 
 th,
@@ -325,6 +350,9 @@ header {
     padding: 0px 0 0px;
     margin: 0 auto;
 }
+header img{
+    border-radius: 15px; 
+}
 
 header h1 {
     text-align: center;
@@ -369,7 +397,8 @@ main#body {
 main#content {
     width: 700px;
     padding: 10px;
-    background-color: #fff;
+    background-image: url("assets/wood_texture.jpg");
+   
 }
 
 .column-left {
@@ -583,6 +612,26 @@ figure.extainfo {
         float: none;
         width: auto;
     }
+    table#t01 {
+    
+    text-align: center;
+}
+#t01 img{
+    width: 75px; 
+    height: 75px;
+    border-radius: 25px; 
+}
+table#t03 img{
+    width: 100px; 
+    height: 100px;
+    border-radius: 10px;
+    
+}
+video{
+    width: 300px;
+    height: 200px; 
+     
+}
 
 
 }
@@ -607,6 +656,25 @@ figure.extainfo {
         margin-top: 0;
         padding: 1em;
     }
+    table#t01 {
+    
+    text-align: center;
+}
+#t01 img{
+    width: 75px; 
+    height: 75px;
+    border-radius: 25px; 
+}
+table#t03 img{
+    width: 100px; 
+    height: 100px;
+    border-radius: 10px;
+    
+}
+video{
+    width: 300px;
+    height: 200px; 
 
 
+}
 }
